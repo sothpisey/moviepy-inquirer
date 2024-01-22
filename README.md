@@ -7,3 +7,5 @@ This software demonstrates the construction of a fundamental video editing tool 
 
 # Check out this video :red_circle:
 [![](https://markdown-videos-api.jorgenkh.no/youtube/282uo9nVGsU)](https://youtu.be/282uo9nVGsU)
+
+<div align="center"><h4>© Copyright sothpisey 2023</h4></div>
