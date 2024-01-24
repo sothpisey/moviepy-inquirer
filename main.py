@@ -29,6 +29,7 @@ console = Console(highlight=False)
 def edit_tool():
     while True:
         os.system('cls')
+        os.system('clear')
         banner = f"""
         ███████╗██████╗ ██╗████████╗  ██╗   ██╗██╗██████╗ ███████╗ █████╗ 
         ██╔════╝██╔══██╗██║╚══██╔══╝  ██║   ██║██║██╔══██╗██╔════╝██╔══██╗
@@ -58,6 +59,7 @@ def edit_tool():
             break
         else:
             os.system('cls')
+            os.system('clear')
             console.print(pystyle.Center.XCenter(thankyou), style='cyan')
             break
 
@@ -94,6 +96,7 @@ def mirror():
 
     while True:
         os.system('cls')
+        os.system('clear')
 
         banner = f"""
         ███╗   ███╗██╗██████╗ ██████╗  ██████╗ ██████╗ 
@@ -111,6 +114,7 @@ def mirror():
         break
 
     os.system('cls')
+    os.system('clear')
     console.print(pystyle.Center.XCenter(banner), style='cyan')
     questions = [
     inquirer.List('choice',
@@ -126,6 +130,7 @@ def mirror():
         mirror()
     else:
         os.system('cls')
+        os.system('clear')
         console.print(pystyle.Center.XCenter(thankyou), style='cyan')
 
 ################################# SPEED VIDEO ####################################
@@ -141,6 +146,7 @@ def speed():
 
     while True:
         os.system('cls')
+        os.system('clear')
 
         banner = f"""
         ███████╗██████╗ ███████╗███████╗██████╗ 
@@ -159,6 +165,7 @@ def speed():
         break
 
     os.system('cls')
+    os.system('clear')
     console.print(pystyle.Center.XCenter(banner), style='cyan')
     questions = [
     inquirer.List('choice',
@@ -174,6 +181,7 @@ def speed():
         speed()
     else:
         os.system('cls')
+        os.system('clear')
         console.print(pystyle.Center.XCenter(thankyou), style='cyan')
 
 ################################# ADD MUSIC ####################################
@@ -191,6 +199,7 @@ def addmusic():
 
     while True:
         os.system('cls')
+        os.system('clear')
 
         banner = f"""
          █████╗ ██████╗ ██████╗     ███╗   ███╗██╗   ██╗███████╗██╗ ██████╗
@@ -209,6 +218,7 @@ def addmusic():
         break
 
     os.system('cls')
+    os.system('clear')
     console.print(pystyle.Center.XCenter(banner), style='cyan')
     questions = [
     inquirer.List('choice',
@@ -224,6 +234,7 @@ def addmusic():
         addmusic()
     else:
         os.system('cls')
+        os.system('clear')
         console.print(pystyle.Center.XCenter(thankyou), style='cyan')
 
 if __name__ == '__main__':
